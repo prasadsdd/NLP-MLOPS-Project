@@ -6,6 +6,12 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
 # Ensure stopwords and lemmatizer are downloaded
 nltk.download('stopwords')
 nltk.download('wordnet')
